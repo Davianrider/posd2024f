@@ -1,0 +1,9 @@
+<config>
+    <state name="Idle">
+        <observer>LotStart</observer>
+        <observer>LotArrived</observer>
+    </state>
+    <state name="Processing">
+        <observer>LotEnd</observer>
+    </state>
+</config>
